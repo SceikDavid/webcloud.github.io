@@ -1,0 +1,129 @@
+/* base Style */
+
+body{font-family: 'Open Sans', sans-serif;}
+
+a{text-decoration: none;}
+
+h1,h2,h3,h4,h5, p{color: #000; padding-bottom: 30px;}
+
+
+/* Dimensione Testi */
+.extra-text{font-size: 120px;}
+.big-text{font-size: 70px;}
+.med-text{font-size: 40px;}
+.normal-text{font-size: 20px;}
+.small-text{font-size: 14px;}
+
+
+
+
+.intro-text{text-transfor: uppercase;font-size:20px; font-weight: bold;}
+.button{padding: 15px 28px; background: #086CFE; color: #fff; display:inline-block; border-radius: 30px;}
+
+
+
+.cta{}
+
+@media (max-width: 768px) {
+
+  .extra-text{font-size: 40}
+  .big-text{font-size: 24px;}
+  .med-text{font-size: 18px;}
+  .normal-text{font-size: 10px;}
+
+}
+
+
+/* Header */
+.header{
+
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+
+  transform: translateX(-50%);
+  padding: 2px;
+  display: flex;
+  max-width: 1350px;
+
+
+}
+
+.logo{}
+
+.menu{
+  width: 100%;
+}
+
+
+.menu li{display: inline-block;}
+.menu li a{color: #fff; padding: 15px; display: block;}
+
+
+/* Hero */
+
+
+.hero{
+  height: 947px;
+  display: flex; width 100%; align-items: center;
+  background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9)),
+  url('bg-image.png') no-repeat center center;
+  background-size: cover;
+
+}
+
+
+.hero__content{
+  transform: translateX(-450px);
+  width: 100%
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+
+
+.hero__content h1,
+.hero__content h2,
+.hero__content p{color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*: before
+*: after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
